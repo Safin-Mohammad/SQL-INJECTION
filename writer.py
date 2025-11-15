@@ -14,4 +14,3 @@ class FileWriter:
         with open(self.filename, 'w') as cf:
             for line in self.content:
                 cf.write(line+"\n")
-              
