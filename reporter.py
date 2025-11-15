@@ -12,3 +12,4 @@ class Report:
             print("{}{}{}".format(colours.FAIL, msg, colours.ENDC))
         else:
             print(msg)
+
